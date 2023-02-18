@@ -11,7 +11,7 @@ body{
 }
 .joke-section{
     background-color: rgba(102, 144, 181, 0.5);
-    width: 420px;
+    width: 820px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,11 +19,11 @@ body{
     border-radius: 10px;
 }
 .img{
-    width: 400px;
-    height: 200px;
+    width: 800px;
+    height: 400px;
     margin-top: 10px;
     border-radius: 10px 10px 0 0;
-    object-fit:cover;
+    object-fit:contain;
 }
 .joke{
     text-align: center;
