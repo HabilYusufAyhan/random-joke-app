@@ -1,7 +1,8 @@
 
 const button = document.querySelector('.create-joke') 
 const section = document.querySelector('.joke-section');
-
+import { JokeApi } from "./joke-api.js";
+import { UnsplashApi } from "./unsplash-api.js";
 button.onmousedown = function () {
   button.style.scale = "0.9";
 };

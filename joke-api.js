@@ -1,4 +1,4 @@
-class JokeApi {
+export class JokeApi {
   constructor() {
     this.baseURL = "https://api.chucknorris.io";
     this.axiosNesne = axios.create({
@@ -9,10 +9,9 @@ class JokeApi {
   async randomJoke() {
     try {
       const jokeResponse = await this.axiosNesne.get("/jokes/random");
-      console.log(jokeResponse.data.value);
       return jokeResponse.data.value;
     } catch (error) {
-      console.log(error);
+      console.log(error.message);
     }
   }
 }
