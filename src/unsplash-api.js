@@ -19,7 +19,7 @@ export class UnsplashApi {
       return PicResponse.data.urls.regular;
     } catch (error) {
       console.log(error.message);
-      const errorpic = '/squirrel-animal-cute-rodents-47547.jpeg'
+      const errorpic = './images/squirrel-animal-cute-rodents-47547-min.jpeg'
       return errorpic;
       
     }
