@@ -5,7 +5,7 @@ import { JokeApi } from "./joke-api.js";
 import { UnsplashApi } from "./unsplash-api.js";
 import './css/deneme.css';
 button.onmousedown = function () {
-  button.style.scale = "0.9";
+  button.style.scale = "0.90";
 };
 button.onmouseup = function () {
   button.style.scale = "1";
